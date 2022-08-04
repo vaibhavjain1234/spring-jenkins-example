@@ -11,6 +11,7 @@
 	<groupId>com.jenkins.exmaple</groupId>
 	<artifactId>spring-jenkins-example</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 	<name>spring-jenkins-example</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
