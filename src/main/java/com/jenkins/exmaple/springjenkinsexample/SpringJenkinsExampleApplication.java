@@ -40,5 +40,14 @@ public class SpringJenkinsExampleApplication extends SpringBootServletInitialize
 	{
 		return "This is spring boot application....";
 	}
+
+	
+	@GetMapping("/one")
+	public String test1()
+	{
+		return "Welcome to the DevOps World....";
+	}
+	
+
 	
 }
