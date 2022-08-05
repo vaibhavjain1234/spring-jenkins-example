@@ -38,7 +38,7 @@ public class SpringJenkinsExampleApplication extends SpringBootServletInitialize
 	@GetMapping("/testing")
 	public String test()
 	{
-		return "This is spring boot application....";
+		return "Testing Jenkins Application....";
 	}
 
 	
