@@ -45,7 +45,7 @@ public class SpringJenkinsExampleApplication extends SpringBootServletInitialize
 	@GetMapping("/one")
 	public String test1()
 	{
-		return "Welcome to the Java World....";
+		return "Welcome to the Java World...."
 	}
 	
 
