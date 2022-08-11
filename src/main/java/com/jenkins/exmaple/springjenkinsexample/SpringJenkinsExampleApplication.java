@@ -38,14 +38,14 @@ public class SpringJenkinsExampleApplication extends SpringBootServletInitialize
 	@GetMapping("/testing")
 	public String test()
 	{
-		return "Testing Jenkins Application....";
+		return "Welocome to the Devops World....";
 	}
 
 	
 	@GetMapping("/one")
 	public String test1()
 	{
-		return "Welcome to the DevOps World....";
+		return "Welcome to the Java World....";
 	}
 	
 
