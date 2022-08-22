@@ -52,7 +52,7 @@ public class SpringJenkinsExampleApplication extends SpringBootServletInitialize
 	@GetMapping("/two")
 	public String test2()
 	{
-		return "Welcome to the DXC....";
+		return "Welcome to the DXC";
 	}
 	
 	
