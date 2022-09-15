@@ -40,19 +40,14 @@ public class SpringJenkinsExampleApplication extends SpringBootServletInitialize
 	{
 		return "Welocome to the Devops World....";
 	}
-	
 	@GetMapping("/one")
 	public String test1()
 	{
 		return "Welcome to the Java World....";
 	}
-	
-
 	@GetMapping("/two")
 	public String test2()
 	{
-		return "Welcome to the DXC";
+		return "Welcome to the DXC"
 	}
-	
-	
 }
